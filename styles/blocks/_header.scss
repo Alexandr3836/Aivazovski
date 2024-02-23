@@ -1,0 +1,30 @@
+.header {
+	padding: 32px 0;
+
+	&__menu {
+		margin-left: auto;
+		font-size: 18px;
+
+		&-list {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding-bottom: 32px;
+			border-bottom: var(--border);
+		}
+
+		&-link {
+			color: var(--color-gray-alt);
+
+			@include hover {
+				content: '';
+				color: var(--color-dark);
+				transition-duration: var(--transition-duration);
+			}
+		}
+
+		&-link.active {
+			color: var(--color-dark);
+		}
+	}
+}

@@ -1,0 +1,22 @@
+.hero {
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+
+	&__body {
+		text-align: center;
+	}
+
+	&__title {
+		font-size: 45px;
+		padding-bottom: 22px;
+	}
+
+	&__description {
+		font-size: 18px;
+	}
+
+	&__image {
+		padding-bottom: 70px;
+	}
+}

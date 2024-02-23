@@ -1,0 +1,15 @@
+.history {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+	&__header {
+		padding: 64px 0 58px;
+		font-size: 34px;
+	}
+
+	&__description {
+		padding: 30px 0 70px;
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,30 @@
+.about {
+	background-color: var(--color-gray);
+	padding: 60px 0 100px;
+
+	&__header {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding-bottom: 15px;
+		font-size: 34px;
+	}
+
+	&__subtitle,
+	&__description-ru,
+	&__description-en {
+		font-size: 18px;
+	}
+
+	&__subtitle {
+		padding-bottom: 11px;
+	}
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		gap: 10px;
+		padding-top: 15px;
+	}
+}
